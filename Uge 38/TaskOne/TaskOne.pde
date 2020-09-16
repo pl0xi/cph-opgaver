@@ -4,10 +4,6 @@ void setup() {
   printPersonalInfo("Benjamin", 21);
 }
 
-void draw() {
-  
-}
-
 // 1.a Prints an empty line
 void printEmptyLine() {
   println();

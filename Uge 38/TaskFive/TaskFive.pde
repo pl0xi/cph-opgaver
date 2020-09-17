@@ -18,7 +18,7 @@ void setup() {
   for (int i = 0; i <= 2; i++) {
     Student tmpStudent = students.get((int) random(0, 9));
     // println(tmpStudent.name);
-    println(getIndexByName(students, tmpStudent.name()));
+    println(getIndexByName(students, tmpStudent.name));
   }
 }
 
@@ -26,14 +26,14 @@ void setup() {
 String getStudentName(ArrayList<Student> students_, int num) {
   // println(num);
   Student tmpStudent = students_.get(num);
-  return tmpStudent.name();
+  return tmpStudent.name;
 }
 
 // 5.c
 int getIndexByName(ArrayList<Student> students_, String findName) {
   for (int i = 0; i < students_.size(); i++) {
     Student tmpStudent = students_.get(i);
-    if (tmpStudent.name().indexOf(findName) != -1) {
+    if (tmpStudent.name.indexOf(findName) != -1) {
       return i;
     }
   }

@@ -15,7 +15,4 @@ class Student {
     return name + ". Team: " + datamatikerTeam;
   }
 
-  String name() {
-    return name;
-  }
 }

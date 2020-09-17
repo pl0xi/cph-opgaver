@@ -9,7 +9,4 @@ class Teacher {
     isFemale = tmpIsFemale;
   }
   
-  String name() {
-    return name;
-  }
 }

@@ -1,7 +1,7 @@
 package Task2;
 
 public class Building {
-	private Room rooms[];
+	private final Room rooms[];
 	private int numberOfBathrooms, numberOfFloors;
 	private boolean isOfficeBuilding;
 

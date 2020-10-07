@@ -1,11 +1,8 @@
 package Task1;
 
 public class Car {
-	private String make;
-	private String model;
+	private String make, model, bodyStyle, Driver;
 	private int year;
-	private String bodyStyle;
-	private String Driver;
 
 	Car(String make, String model, int year, String bodyStyle) {
 		this.make = make;
